@@ -12,10 +12,12 @@
 APP_NAME = "対話型商品レコメンド生成AIアプリ"
 USER_ICON_FILE_PATH = "./images/user_icon.jpg"
 AI_ICON_FILE_PATH = "./images/ai_icon.jpg"
+WARNING_ICON = ":material/warning:"     # 課題対応 警告アイコンの定義を追加
 ERROR_ICON = ":material/error:"
 CHAT_INPUT_HELPER_TEXT = "こちらからお探しの商品の特徴や名前を入力してください。"
 SPINNER_TEXT = "レコメンドする商品の検討中..."
-
+LOW_STOCK_MESSAGE = "ご好評につき、在庫数が残りわずかです。購入をご希望の場合、お早めのご注文をおすすめいたします。"    # 課題対応 在庫残りわずかメッセージの定義を追加
+OUT_OF_STOCK_MESSAGE = "申し訳ございませんが、本商品は在庫切れとなっております。入荷までもうしばらくお待ちください。"   # 課題対応 在庫切れメッセージの定義を追加
 
 # ==========================================
 # ログ出力系
